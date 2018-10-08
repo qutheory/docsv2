@@ -1,0 +1,38 @@
+site_name: 'Vapor Cloud 2 - Docs'
+copyright: 'Copyright &copy; 2018 Qutheory, LLC'
+site_url: 'https://docs.vapor.codes/3.0/'
+
+pages:
+- 'Overview': 'index.md'
+- 'Quick start':
+    - 'Getting started': 'quick-start/getting-started.md'
+
+markdown_extensions:
+    - admonition
+    - codehilite:
+        guess_lang: false
+    - footnotes
+    - meta
+    - toc:
+        permalink: true
+
+theme:
+    name: 'material'
+    palette:
+        primary: 'blue'
+        accent: 'purple'
+    logo: 'images/droplet-white.svg'
+
+#repo_url: http://github.com/vapor/vapor
+#edit_uri: https://github.com/vapor/documentation/edit/master/3.0/docs/
+extra:
+    social:
+        - type: 'twitter'
+          link: 'https://twitter.com/@codevapor'
+        - type: 'slack'
+          link: 'http://vapor.team/'
+        - type: 'github'
+          link: 'https://github.com/vapor'
+    font:
+        text: 'Roboto Slab'
+        code: 'Source Code Pro'
