@@ -41,3 +41,6 @@ extra:
     font:
         text: 'Roboto Slab'
         code: 'Source Code Pro'
+
+extra_css:
+  - 'stylesheets/extra.css'
