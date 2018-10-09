@@ -11,6 +11,8 @@ pages:
     - 'Templates': 'docker/templates.md'
 - 'Git':
     - 'Setup git': 'git/setup-git.md'
+- 'Database':
+    - 'Database': 'database/database.md'
 
 markdown_extensions:
     - admonition
@@ -22,11 +24,11 @@ markdown_extensions:
         permalink: true
 
 theme:
-    name: 'material'
-    palette:
-        primary: 'blue'
-        accent: 'purple'
-    logo: 'images/white-cloud-icon.svg'
+  name: 'material'
+  palette:
+    primary: 'blue'
+    accent: 'purple'
+  logo: 'images/white-cloud-icon.svg'
 
 #repo_url: http://github.com/vapor/vapor
 #edit_uri: https://github.com/vapor/documentation/edit/master/3.0/docs/
