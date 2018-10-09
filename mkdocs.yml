@@ -30,8 +30,8 @@ theme:
     accent: 'purple'
   logo: 'images/white-cloud-icon.svg'
 
-#repo_url: http://github.com/vapor/vapor
-#edit_uri: https://github.com/vapor/documentation/edit/master/3.0/docs/
+repo_url: http://github.com/vapor-cloud/docsv2
+edit_uri: https://github.com/vapor-cloud/docsv2/edit/master/docs/
 extra:
     social:
         - type: 'twitter'
