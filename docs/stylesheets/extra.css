@@ -1,0 +1,10 @@
+.md-nav--primary > ul > li {
+  border-bottom: 1px dashed rgba(0,0,0,.1);
+  font-size: 16px;
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+
+.md-nav__title {
+  display: none;
+}
