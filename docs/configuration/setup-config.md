@@ -8,5 +8,12 @@ Input your new config variables
 
 And click `Update`
 
-!!! note
+!!! warning
     This will cause a reboot of the application to update the config vars. No deployment is necessary to update the config.
+
+You can use the environment variables in Vapor 3 like the following
+
+```swift
+var myVar = Environment.get("MY_VAR")
+print(myVar) // MY_VAL
+```

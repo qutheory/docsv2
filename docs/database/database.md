@@ -25,7 +25,7 @@ After that select `Plan`, `Engine` and `Region`
 
 After creating the database, it's up and ready for being used.
 
-!!! note
+!!! warning
     Your web replicas will reboot since it will add a config variable to the app. No deployment is necessary to update the config.
 
 On the database card, you can see the `TOKEN` you can use in the database. You also have an `Open` button, if you click this, you get credentials for external connection to the database.
