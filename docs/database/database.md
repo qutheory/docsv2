@@ -28,7 +28,7 @@ After creating the database, it's up and ready for being used.
 !!! warning
     Your web replicas will reboot since it will add a config variable to the app. No deployment is necessary to update the config.
 
-On the database card, you can see the `TOKEN` you can use in the database. You also have an `Open` button, if you click this, you get credentials for external connection to the database.
+On the database card, you can see the `TOKEN` you can use in the database. You can also click the `More` button, and connection details, to see details giving you access to connect to the database from a Tool of your choice (CLI, GUI tool etc.)
 
 Tokens are the one you connect to the database from your Vapor app. These are named like:
 
