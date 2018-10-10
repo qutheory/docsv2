@@ -7,8 +7,29 @@ Before you can use it, you need to setup your public key on Vapor Cloud.
 
 ## Setup Public key
 
+Git keys gives you access to the Vapor Cloud Git. To setup git keys, you need to get the contents of the public SSH file.
+Per default it's located at ~/.ssh/id_rsa.pub
+
+To get the content you can do:
+
+```bash
+cat ~/.ssh/id_rsa.pub
+```
+
+It's only one line. Copy the file.
+
+Under `Settings` in the menu, click the Create icon to create it.
+
+![Setup key](https://user-images.githubusercontent.com/2535140/46766331-fbdbe400-cce1-11e8-9bd9-8e1818005f68.png)
+
 !!! note
-    TODO
+    This might take a few seconds to create.
+
+After this you should be able to verify access by running
+
+```bash
+ssh git@git.code.vapor.cloud
+```
 
 ## Setup Git
 
