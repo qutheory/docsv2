@@ -31,6 +31,16 @@ After this you should be able to verify access by running
 ssh git@git.code.vapor.cloud
 ```
 
+The output will look something like this:
+
+```
+PTY allocation request failed on channel 0
+Hi jonas@vapor.codes, You've successfully authenticated to Vapor Cloud Git
+ R W	night-long-14474
+ R W	sun-ancient-43997
+Connection to git.code.vapor.cloud closed.
+```
+
 ## Setup Git
 
 If you already have a Vapor app, you can easily setup your repository locally.
