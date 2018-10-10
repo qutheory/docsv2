@@ -12,7 +12,7 @@ To setup Config, click the 3 dots on the Application card, and click `Configurat
 
 Input your new config variables
 
-![Update config](https://user-images.githubusercontent.com/2535140/46725376-593d4a00-cc7c-11e8-8ef3-621f2afb9aad.png)
+![Update config](https://user-images.githubusercontent.com/2535140/46762947-c088e780-ccd8-11e8-85b0-81789c7ef0cf.png)
 
 And click `Update`
 
@@ -24,6 +24,6 @@ And click `Update`
 You can use the environment variables in Vapor 3 like the following
 
 ```swift
-var myVar = Environment.get("MY_VAR")
-print(myVar) // MY_VAL
+var myKey = Environment.get("MY_KEY")
+print(myKey) // MY_VALUE
 ```
