@@ -4,7 +4,9 @@ site_url: 'https://docs.vapor.codes/3.0/'
 
 pages:
 - 'Overview': 'index.md'
-- 'Quick start': 'quick-start.md'
+- 'Getting started':
+    - 'Quick start': 'getting-started/quick-start.md'
+    - 'Navigating the dashboard': 'getting-started/navigating-the-dashboard.md'
 - 'Major differences to Cloud 1': 'major-differences-to-cloud-1.md'
 - 'Docker':
     - 'Basic Docker': 'docker/basic-docker.md'
