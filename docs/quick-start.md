@@ -4,7 +4,7 @@
 
 To get started on Vapor Cloud 2, setup a new account [here](https://dashboard.v2.vapor.cloud/signup)
 
-After you have created your account, Login, and you will see something like this
+After you have created your account, and signed in, you will see something like this
 
 ![Dashboard](https://user-images.githubusercontent.com/2535140/46662530-f97f6a00-cbbb-11e8-85cc-11fa5e53406b.png)
 
