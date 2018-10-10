@@ -11,6 +11,8 @@ pages:
     - 'Templates': 'docker/templates.md'
 - 'Git':
     - 'Setup git': 'git/setup-git.md'
+- 'Configuration':
+    - 'Setup config': 'configuration/setup-config.md'
 - 'Database':
     - 'Database': 'database/database.md'
 
