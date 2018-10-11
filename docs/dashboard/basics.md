@@ -6,13 +6,13 @@ The dashboard in Vapor Cloud 2 is an easy way to interact with your workloads on
 
 At the top of the Dashboard, there is a Search field. This searches for Applications across all organizations you have access to. Once you start typing, it will automatically start showing you results.
 
-![Search](https://user-images.githubusercontent.com/2535140/46768131-6d6a6100-cce7-11e8-9df4-3d9f839bad2b.png)
+![Search](https://cloud2-cdn.ams3.digitaloceanspaces.com/search.png)
 
 ## Organization Switcher
 
 At the top of the main menu, you can see the currently selected organization. If you click the button next to the name, you get a can switch to a different organization.
 
-![Organization switcher](https://user-images.githubusercontent.com/2535140/46768197-a0145980-cce7-11e8-8082-16696a8b4cc3.png)
+![Organization switcher](https://cloud2-cdn.ams3.cdn.digitaloceanspaces.com/org-switcher.png)
 
 ## Application Actions
 
@@ -21,7 +21,7 @@ At the top of the application view page, there is an action bar with two main fu
 - Environment Switcher: Select which of the application's environments you are viewing.
 - `+` Button: Used to create Environments, Databases, etc.
 
-![Application actions](https://user-images.githubusercontent.com/2535140/46768271-e4075e80-cce7-11e8-9b73-9500d617d149.png)
+![Application actions](https://cloud2-cdn.ams3.cdn.digitaloceanspaces.com/application-actions.png)
 
 ## Application Cards
 
@@ -31,4 +31,17 @@ Under the application view page, there are several, dynamic cards. These show va
 
 On each card, there can be zero or more main action buttons. These help you perform common tasks quickly, like deploying or scaling your application. 
 
+<<<<<<< HEAD
 On some cards, there can be a "more" button in the top right corner. Clicking the more button gives access to less common tasks, like viewing database credentials.
+=======
+![Application card](https://cloud2-cdn.ams3.cdn.digitaloceanspaces.com/card.png)
+
+### Application status
+
+The application status card, is connected directly to the cluster, this means you get a live status of replicas running.
+
+This means after scaling or deployment, the number can be a bit different depending on when all
+changes are updated in the cluster.
+
+![Application status](https://cloud2-cdn.ams3.cdn.digitaloceanspaces.com/card-status.png)
+>>>>>>> 2ae9bde8f200534d12f6add0a807635ddea62058

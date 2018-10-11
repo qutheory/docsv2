@@ -6,9 +6,11 @@ This guide will walk you through all of the required steps for deploying your fi
 
 To get started on Vapor Cloud 2, setup a new account [here](https://dashboard.v2.vapor.cloud/signup).
 
+![Signup](https://cloud2-cdn.ams3.cdn.digitaloceanspaces.com/create-account.png)
+
 After you have created your account, and signed in, you will see something like this:
 
-![Dashboard](https://user-images.githubusercontent.com/2535140/46662530-f97f6a00-cbbb-11e8-85cc-11fa5e53406b.png)
+![Dashboard](https://cloud2-cdn.ams3.cdn.digitaloceanspaces.com/dashboard.png)
 
 !!! note
     During the Alpha, you will see various parts of the dashboard as "Under construction".
@@ -27,7 +29,7 @@ It's only one line. Copy the entire output.
 
 Next, in the dashboard, navigate to the Settings page using the main menu. Then, click the `+` button in the SSH keys section.
 
-![Setup key](https://user-images.githubusercontent.com/2535140/46766331-fbdbe400-cce1-11e8-9bd9-8e1818005f68.png)
+![Setup key](https://cloud2-cdn.ams3.cdn.digitaloceanspaces.com/create-key.png)
 
 Give your SSH key a recognizable name and paste the contents of the key. Then, click create.
 
@@ -62,13 +64,13 @@ You can always create your own `web.Dockerfile` if you want. Visit [Docker &rarr
 
 Next, we need to create a new application in Vapor Cloud to host our project. Go to the Applications page using the main menu, then click the `+` icon to create a new application.
 
-![Create application](https://user-images.githubusercontent.com/2535140/46663583-c7bbd280-cbbe-11e8-805a-94aa03b940eb.png)
+![Create application](https://cloud2-cdn.ams3.cdn.digitaloceanspaces.com/create-application.png)
 
 For `Name`, let's let Vapor Cloud generate a unique name for our application by selecting `Generated`. Choose a plan and region to host your application in, then click create.
 
 You can now see your application:
 
-![See application](https://user-images.githubusercontent.com/2535140/46664278-d30ffd80-cbc0-11e8-8b08-fb9ac80b3696.png)
+![See application](https://cloud2-cdn.ams3.cdn.digitaloceanspaces.com/application-view.png)
 
 Click the "More" icon on the Git card, and view the instructions for configuring Git.
 
@@ -78,7 +80,7 @@ After you have pushed your code to Vapor Cloud's private git server, you can sta
 
 When you start the deployment, you automatically get all output from the deploy, making debugging easy. The last part of the deploy is `Launching`. This will wait until the application is online. If booting the app fails, you will get the log output so you can see what failed.
 
-![Deploy](https://user-images.githubusercontent.com/2535140/46766802-65a8bd80-cce3-11e8-9b51-531e3fcea546.png)
+![Deploy](https://cloud2-cdn.ams3.cdn.digitaloceanspaces.com/deploy.png)
 
 ## Scale
 
@@ -86,7 +88,7 @@ After deploying your app for the first time, you must scale the application to o
 
 On the Replica card, click scale, and scale your app to `1`.
 
-![Scale](https://user-images.githubusercontent.com/2535140/46766899-a7396880-cce3-11e8-8a6d-4f9231c5fb00.png)
+![Scale](https://cloud2-cdn.ams3.cdn.digitaloceanspaces.com/scale.png)
 
 After this you should be able to access your application on `<app-slug>.v2.vapor.cloud`
 
