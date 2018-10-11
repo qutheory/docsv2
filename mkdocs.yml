@@ -1,7 +1,6 @@
 site_name: 'Vapor Cloud 2 - Docs'
 copyright: 'Copyright &copy; 2018 Qutheory, LLC'
 site_url: 'https://docs.vapor.codes/3.0/'
-
 pages:
 - 'Overview': 'index.md'
 - 'Quick Start': 'quick-start.md'
@@ -13,7 +12,6 @@ pages:
 - 'Git': 'git/basics.md'
 - 'Config Vars': 'config/basics.md'
 - 'Database': 'database/basics.md'
-
 markdown_extensions:
     - admonition
     - codehilite:
@@ -22,14 +20,12 @@ markdown_extensions:
     - meta
     - toc:
         permalink: true
-
 theme:
   name: 'material'
   palette:
     primary: 'blue'
     accent: 'purple'
   logo: 'images/white-cloud-icon.svg'
-
 repo_url: http://github.com/vapor-cloud/docsv2
 edit_uri: https://github.com/vapor-cloud/docsv2/edit/master/docs/
 extra:
@@ -43,6 +39,5 @@ extra:
     font:
         text: 'Roboto Slab'
         code: 'Source Code Pro'
-
 extra_css:
   - 'stylesheets/extra.css'
