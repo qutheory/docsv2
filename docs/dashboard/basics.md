@@ -31,9 +31,9 @@ At the top of the application view page, there is an action bar with two main fu
 
 Under the application view page, there are several, dynamic cards. These show various features of the application and are your primary method of interaction.
 
-![Application card](https://user-images.githubusercontent.com/2535140/46768337-1ca73800-cce8-11e8-9af5-1474bfbab5b3.png)
+![Application card](https://cloud2-cdn.ams3.cdn.digitaloceanspaces.com/card.png)
 
-On each card, there can be zero or more main action buttons. These help you perform common tasks quickly, like deploying or scaling your application. 
+On each card, there can be zero or more main action buttons. These help you perform common tasks quickly, like deploying or scaling your application.
 
 On some cards, there can be a "more" button in the top right corner. Clicking the more button gives access to less common tasks, like viewing database credentials.
 
