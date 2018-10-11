@@ -8,3 +8,13 @@
 .md-nav__title {
   display: block;
 }
+
+.md-nav__title--site {
+    display: none;
+}
+
+@media only screen and (max-width: 1220px) {
+    .md-nav__title--site {
+        display: block;
+    }
+}

@@ -4,19 +4,15 @@ site_url: 'https://docs.vapor.codes/3.0/'
 
 pages:
 - 'Overview': 'index.md'
-- 'Getting started':
-    - 'Quick start': 'getting-started/quick-start.md'
-    - 'Navigating the dashboard': 'getting-started/navigating-the-dashboard.md'
-- 'Major differences to Cloud 1': 'major-differences-to-cloud-1.md'
+- 'Quick Start': 'quick-start.md'
+- "What's New": 'whats-new.md'
+- 'Dashboard': 'dashboard/basics.md'
 - 'Docker':
-    - 'Basic Docker': 'docker/basic-docker.md'
+    - 'Basics': 'docker/basics.md'
     - 'Templates': 'docker/templates.md'
-- 'Git':
-    - 'Setup git': 'git/setup-git.md'
-- 'Configuration':
-    - 'Setup config': 'configuration/setup-config.md'
-- 'Database':
-    - 'Database': 'database/database.md'
+- 'Git': 'git/basics.md'
+- 'Configuration': 'config/basics.md'
+- 'Database': 'database/basics.md'
 
 markdown_extensions:
     - admonition

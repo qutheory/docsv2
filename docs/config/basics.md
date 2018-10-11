@@ -1,4 +1,4 @@
-# Setup Config
+# Config Basics
 
 Configurations are an easy way to store sensitive information in your app. For example API keys etc.
 

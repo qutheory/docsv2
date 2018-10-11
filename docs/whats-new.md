@@ -1,4 +1,4 @@
-# Major differences to Cloud 1
+# What's New in 2.0
 
 Cloud 2 is a complete rewrite of all parts of the system. This have allowed us to make the system a lot more flexible
 and add many new features.
@@ -47,7 +47,7 @@ This will allow people to only upload one or more public SSH keys, this key is p
 
 When you invite a person to your organization they are automatically given access to your applications on our git server.
 
-You can read more about Git [here](/git/setup-git.md)
+You can read more about Git [here](/git/basics.md)
 
 ## cloud.yml and Dockerfile
 
@@ -58,7 +58,7 @@ and to even support other types of sites like Kitura, Perfect, and even PHP etc.
 
 The file should be named e.g. `<replicaSlug>.Dockerfile` For example `web.Dockerfile`
 
-Read more about Docker [here](/docker/basic-docker.md)
+Read more about Docker [here](/docker/basics.md)
 
 !!! note
     You app need to accept requests on port **80** For vapor you can do `--port 80`
