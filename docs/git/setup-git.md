@@ -20,7 +20,7 @@ It's only one line. Copy the file.
 
 Under `Settings` in the menu, click the Create icon to create it.
 
-![Setup key](https://user-images.githubusercontent.com/2535140/46766331-fbdbe400-cce1-11e8-9bd9-8e1818005f68.png)
+![Setup key](../images/screenshots/create-key.png)
 
 !!! note
     This might take a few seconds to create.
