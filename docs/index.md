@@ -1,9 +1,9 @@
 # Overview
 
+Welcome to Vapor Cloud 2's documentation. Use the menu on the left or the search bar to navigate.
+
 !!! warning
     Version 2 is currently in an early Alpha stage. To follow the development process, see our [Roadmap](https://github.com/vapor-cloud/roadmap/issues/31)
-
-Welcome to Vapor Cloud 2's documentation. Use the menu on the left or the search bar to navigate.
 
 ## Quick Start
 
