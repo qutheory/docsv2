@@ -4,11 +4,11 @@
 
 To get started on Vapor Cloud 2, setup a new account [here](https://dashboard.v2.vapor.cloud/signup)
 
-![Signup](../images/screenshots/create-account.png)
+![Signup](https://cloud2-cdn.ams3.cdn.digitaloceanspaces.com/create-account.png)
 
 After you have created your account, and signed in, you will see something like this
 
-![Dashboard](../images/screenshots/dashboard.png)
+![Dashboard](https://cloud2-cdn.ams3.cdn.digitaloceanspaces.com/dashboard.png)
 
 !!! note
     During the Alpha, you will see various parts of the dashboard as "Under construction"
@@ -28,7 +28,7 @@ It's only one line. Copy the file.
 
 Under `Settings` in the menu, click the Create icon to create it.
 
-![Setup key](../images/screenshots/create-key.png)
+![Setup key](https://cloud2-cdn.ams3.cdn.digitaloceanspaces.com/create-key.png)
 
 !!! note
     This might take a few seconds to create.
@@ -68,13 +68,13 @@ curl -O https://raw.githubusercontent.com/vapor-cloud/docker/master/Swift/Vapor3
 
 Click the `Applications` button, and click the `+` icon to create your application.
 
-![Create application](../images/screenshots/create-application.png)
+![Create application](https://cloud2-cdn.ams3.cdn.digitaloceanspaces.com/create-application.png)
 
 For `Name` if you select generated, it will create a random name for the application, this is great for testing. We will later add a feature allowing to change the app slug.
 
 You can now see your application:
 
-![See application](../images/screenshots/application-view.png)
+![See application](https://cloud2-cdn.ams3.cdn.digitaloceanspaces.com/application-view.png)
 
 From the `Git` card, copy/paste the git string, and go to your project and run
 
@@ -93,7 +93,7 @@ When you start the deployment, you automatically get all output from the deploy,
 
 The last part of the deploy is `Launching` this will wait until the application is online. If the boot of the app fails, you will get the log output so you can see what failed.
 
-![Deploy](../images/screenshots/deploy.png)
+![Deploy](https://cloud2-cdn.ams3.cdn.digitaloceanspaces.com/deploy.png)
 
 ## Scale
 
@@ -101,7 +101,7 @@ After the deployment, your app isn't booted, since it will have 0 replicas. On t
 
 In the replicas card, click scale, and scale the app to e.g. 1 replica.
 
-![Scale](../images/screenshots/scale.png)
+![Scale](https://cloud2-cdn.ams3.cdn.digitaloceanspaces.com/scale.png)
 
 After this you should be able to access your application on <app-slug>.v2.vapor.cloud
 

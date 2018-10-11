@@ -20,7 +20,7 @@ It's only one line. Copy the file.
 
 Under `Settings` in the menu, click the Create icon to create it.
 
-![Setup key](../images/screenshots/create-key.png)
+![Setup key](https://cloud2-cdn.ams3.cdn.digitaloceanspaces.com/create-key.png)
 
 !!! note
     This might take a few seconds to create.

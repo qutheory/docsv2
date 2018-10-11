@@ -12,7 +12,7 @@ To setup Config, click the 3 dots on the Application card, and click `Configurat
 
 Input your new config variables
 
-![Update config](../images/screenshots/create-config.png)
+![Update config](https://cloud2-cdn.ams3.cdn.digitaloceanspaces.com/create-config.png)
 
 And click `Update`
 

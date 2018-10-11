@@ -21,7 +21,7 @@ To setup a database, go to the application page, and click the `+` create icon i
 
 After that select `Plan`, `Engine` and `Region`
 
-![Create database](../images/screenshots/create-database.png)
+![Create database](https://cloud2-cdn.ams3.cdn.digitaloceanspaces.com/create-database.png)
 
 After creating the database, it's up and ready for being used.
 
