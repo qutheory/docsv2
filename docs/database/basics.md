@@ -15,6 +15,10 @@ Dev plans are row limited, and there are no customization of the system. There a
 For Standard-* plans, you get your own server, and are able to setup IP Whitelisting to only allow specific ips access for security.
 You are also able to customize parts of the configuration to fit your need.
 
+!!! warning
+    Please note, there are currently no backups of databases, if you don't want to risk loosing your data,
+    we recommend taking manual backups in intervals
+
 ## Setup a database
 
 To setup a database, go to the application page, and click the `+` create icon in the top right corner. And click `Database`
