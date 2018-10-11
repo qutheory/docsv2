@@ -1,31 +1,31 @@
 # Git Basics
 
-All applications on Vapor Cloud get a **free** private repository on Vapor Cloud.
-You can easily use this to deploy your Application from.
+All applications on Vapor Cloud get a **free** private repository on Vapor Cloud which you use to deploy code. 
 
 Before you can use it, you need to setup your public key on Vapor Cloud.
 
-## Setup Public key
+## Setup Git Access
 
-Git keys gives you access to the Vapor Cloud Git. To setup git keys, you need to get the contents of the public SSH file.
-Per default it's located at ~/.ssh/id_rsa.pub
+Git keys give you access to Vapor Cloud's private Git server. To setup git keys, you need to get the contents of your public SSH file. It's usually located at `~/.ssh/id_rsa.pub`, but my vary.
 
-To get the content you can do:
+To get the content you can run the following command:
 
 ```bash
 cat ~/.ssh/id_rsa.pub
 ```
 
-It's only one line. Copy the file.
+It's only one line. Copy the entire output.
 
-Under `Settings` in the menu, click the Create icon to create it.
+Next, in the dashboard, navigate to the Settings page using the main menu. Then, click the `+` button in the SSH keys section.
 
 ![Setup key](https://cloud2-cdn.ams3.cdn.digitaloceanspaces.com/create-key.png)
+
+Give your SSH key a recognizable name and paste the contents of the key. Then, click create.
 
 !!! note
     This might take a few seconds to create.
 
-After this you should be able to verify access by running
+After this you should be able to verify access by running.
 
 ```bash
 ssh git@git.code.vapor.cloud
@@ -36,8 +36,8 @@ The output will look something like this:
 ```
 PTY allocation request failed on channel 0
 Hi jonas@vapor.codes, You've successfully authenticated to Vapor Cloud Git
- R W	night-long-14474
- R W	sun-ancient-43997
+ R W    night-long-14474
+ R W    sun-ancient-43997
 Connection to git.code.vapor.cloud closed.
 ```
 
@@ -45,7 +45,7 @@ Connection to git.code.vapor.cloud closed.
 
 If you already have a Vapor app, you can easily setup your repository locally.
 
-To do this, run the following command
+To do this, run the following command:
 
 ```bash
 git remote add cloud git@git.code.vapor.cloud:...

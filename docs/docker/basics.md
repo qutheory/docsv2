@@ -1,6 +1,6 @@
 # Docker Basics
 
-All applications on Vapor Cloud runs in a Docker container. This gives full flexibility over
+All applications on Vapor Cloud run in a Docker container. This gives full flexibility over
 what is installed for the specific applications.
 
 Docker files in Vapor Cloud 2 should be located in the root directory (Same place as your `Package.swift` file)
@@ -18,32 +18,54 @@ For example:
 | web (default) | web.Dockerfile |
 | queue | queue.Dockerfile |
 
-## Testing locally
+## Testing Locally
 
-This allows you to build and test the Docker container locally. To do this you can build it with e.g.:
+You can use Docker or Docker Compose to test your application locally.
+
+!!! note
+    You may experience differences between local and deployed results.
+
+### Manual Docker
+
+You can build and run your Docker containers manually using `docker build` and `docker run`.
 
 ```bash
 docker build -t my-app -f web.Dockerfile
 ```
 
-And then you can run it
+Then run your application with the following command:
 
 ```bash
-docker run -ti -p 8081:80 my-app
+docker run --rm -it -p 8080:80 my-app
 ```
-And test it with http://127.0.0.1:8081
+And test it by visiting `http://127.0.0.1:8080`.
 
-!!! note
-    Because of the complex nature of the Vapor Cloud setup, you might experience differences between
-    local and live results.
+### Docker Compose
 
-## Port settings
+You can also use Docker Compose to manage your local test images and containers by creating a `docker-compose.yml` in the root of your project.
 
-Applications inside the container need to listen on port **80**
+```yml
+version: '3'
+services:
+  web:
+    ports:
+     - 8080:80
+    build:
+      context: .
+      dockerfile: web.Dockerfile
+```
 
-For Vapor you should start the process with `--port 80` to achieve this.
+Once saved, you can use the following command to boot your project for testing.
 
-If it listens on another port, the application won't work.
+```
+docker-compose up --build web
+```
+
+The `--build` flag will ensure the image is rebuilt with each run.
+
+### Port Settings
+
+Applications inside the container need to listen on port **80**. If it listens on another port, the application won't work.
 
 !!! note
     The Docker EXPOSE feature is not supported, and will be ignored.

@@ -11,7 +11,7 @@ pages:
     - 'Basics': 'docker/basics.md'
     - 'Templates': 'docker/templates.md'
 - 'Git': 'git/basics.md'
-- 'Configuration': 'config/basics.md'
+- 'Config Vars': 'config/basics.md'
 - 'Database': 'database/basics.md'
 
 markdown_extensions:

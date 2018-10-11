@@ -11,4 +11,4 @@ FROM nginx:1.13.12-alpine as production-stage
 
 COPY --from=build-stage /app/site/ /usr/share/nginx/html/
 
-CMD ["nginx", "-g", "daemon off;"]
+ENTRYPOINT ["nginx", "-g", "daemon off;"]

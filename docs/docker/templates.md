@@ -1,20 +1,12 @@
 # Docker Templates
 
-We provide a variety of different Docker templates, that we feels give the best
-system.
-
-All templates can be found [here](https://github.com/vapor-cloud/docker)
+We provide a variety of different Docker templates that can be found [here](https://github.com/vapor-cloud/docker)
 
 ## Vapor 3
 
-The Vapor template is built using Multi-stage build. This means it will first setup
-a full Swift container, this will be used to build the application.
+The Vapor template takes advantage of a multi-stage build. This means it will first setup a container with the Swift compiler that will be used to build the application. After this, it will setup a plain Ubuntu container for running the compiled executable. 
 
-After this it will setup a plain Ubuntu container where it will copy important files.
-
-This gives a much smaller container, which allows for faster deployment, and faster boot up times.
-
-You can see the template [here](https://github.com/vapor-cloud/docker/blob/master/Swift/Vapor3/web.Dockerfile)
+This multi-stage build process results in a much smaller container, which allows for faster deployment, and faster boot up times. You can see the template [here](https://github.com/vapor-cloud/docker/blob/master/Swift/Vapor3/web.Dockerfile).
 
 To set it up in your project, simply do:
 
