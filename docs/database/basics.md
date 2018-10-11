@@ -16,7 +16,7 @@ For Standard-* plans, you get your own server, and are able to setup IP Whitelis
 You are also able to customize parts of the configuration to fit your need.
 
 !!! warning
-    Please note, there are currently no backups of databases, if you don't want to risk loosing your data,
+    Please note, there are currently no backups of databases. If you don't want to risk losing your data,
     we recommend taking manual backups in intervals
 
 ## Setup a database
