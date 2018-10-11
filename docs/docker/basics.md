@@ -1,4 +1,4 @@
-# Basic Docker
+# Docker Basics
 
 All applications on Vapor Cloud runs in a Docker container. This gives full flexibility over
 what is installed for the specific applications.

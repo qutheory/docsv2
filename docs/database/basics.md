@@ -1,4 +1,4 @@
-# Database
+# Database Basics
 
 Vapor Cloud supports two different database engines `MySQL` and `PostgreSQL`.
 

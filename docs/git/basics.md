@@ -1,4 +1,4 @@
-# Setup git
+# Git Basics
 
 All applications on Vapor Cloud get a **free** private repository on Vapor Cloud.
 You can easily use this to deploy your Application from.

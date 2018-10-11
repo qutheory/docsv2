@@ -1,4 +1,4 @@
-# Navigating the dashboard
+# Dashboard Basics
 
 The dashboard in Vapor Cloud 2 is an easy way to interact with your workloads on Vapor Cloud.
 
