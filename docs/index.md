@@ -1,4 +1,4 @@
-# Overview2
+# Overview
 
 Welcome to Vapor Cloud 2's documentation. Use the menu on the left or the search bar to navigate.
 
