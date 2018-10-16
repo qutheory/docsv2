@@ -1,6 +1,6 @@
 # Git Basics
 
-All applications on Vapor Cloud get a **free** private repository on Vapor Cloud which you use to deploy code. 
+All applications on Vapor Cloud get a **free** private repository on Vapor Cloud which you use to deploy code.
 
 Before you can use it, you need to setup your public key on Vapor Cloud.
 
@@ -15,6 +15,15 @@ cat ~/.ssh/id_rsa.pub
 ```
 
 It's only one line. Copy the entire output.
+
+!!! tip
+    On MacOS you can also just run
+
+    ```bash
+    pbcopy < ~/.ssh/id_rsa.pub
+    ```
+
+    This will copy the output of the file automatically
 
 Next, in the dashboard, navigate to the Settings page using the main menu. Then, click the `+` button in the SSH keys section.
 
