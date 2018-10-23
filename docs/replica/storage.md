@@ -1,7 +1,7 @@
 # Replica Storage
 
 !!! warning
-    All replicas uses ephemeral storage
+    All replicas use ephemeral storage
 
 ## Ephemeral storage
 
