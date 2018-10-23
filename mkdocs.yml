@@ -16,6 +16,7 @@ pages:
     - 'Storage': 'replica/storage.md'
 - 'Database': 'database/basics.md'
 - 'Redis':
+    - 'Redis': 'redis/redis.md'
     - 'Storage': 'redis/storage.md'
 markdown_extensions:
     - admonition
