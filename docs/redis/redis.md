@@ -15,5 +15,7 @@ It's possible to connect to Redis servers externally, either through CLI or GUI 
 
 Each redis server have a password, that can be easily rotated for security.
 
+When connecting to a Redis server, it will get a specific port, it's important to specify this when connecting to the server.
+
 !!! note
     Later it will also be possible to setup IP Whitelist, to only allow certain ips to access the redis server.
