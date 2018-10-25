@@ -7,7 +7,7 @@ Welcome to Vapor Cloud 2's documentation. Use the menu on the left or the search
 
 ## Quick Start
 
-If you are new to Vapor Cloud, visit [Quick Start](/quick-start.md) for a tutorial on deploying your first application.
+If you are new to Vapor Cloud, visit [Quick Start](quick-start.md) for a tutorial on deploying your first application.
 
 ## Contribute
 
