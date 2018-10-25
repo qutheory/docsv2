@@ -11,7 +11,13 @@ pages:
     - 'Templates': 'docker/templates.md'
 - 'Git': 'git/basics.md'
 - 'Config Vars': 'config/basics.md'
+- 'Replica':
+    - 'Replica': 'replica/replica.md'
+    - 'Storage': 'replica/storage.md'
 - 'Database': 'database/basics.md'
+- 'Redis':
+    - 'Redis': 'redis/redis.md'
+    - 'Storage': 'redis/storage.md'
 markdown_extensions:
     - admonition
     - codehilite:

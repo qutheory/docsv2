@@ -38,14 +38,58 @@ Tokens are the one you connect to the database from your Vapor app. These are na
 
 `DB_<ENGINE>` e.g. `DB_POSTGRESQL` if you have two databases of the same engine they will be named `DB_POSTGRESQL` and `DB_POSTGRESQL2`
 
-To connect to it from your Vapor 3 app, simply use:
+## Connect in Vapor 3
+
+### PostgreSQL
+
+The following config will locally connect to localhost, and on Vapor Cloud use `DB_POSTGRESQL` variable.
 
 ```swift
-let databaseConfig: PostgreSQLDatabaseConfig
-let url = Environment.get("DB_POSTGRESQL")
-
-guard let urlConfig = PostgreSQLDatabaseConfig(url: url) else {
-    fatalError("Failed to create PostgreSQLConfig")
+services.register { c -> PostgreSQLDatabaseConfig
+    switch c.environment {
+    case .development:
+        return .init(
+            hostname: "localhost",
+            port: 5432,
+            username: "vapor",
+            password: "vapor",
+            database: "database"
+        )
+    default:
+        guard let url = Environment.get("DB_POSTGRESQL") else {
+            throw Abort(.internalServerError, reason: "No DB_POSTGRESQL env var set")
+        }
+        guard let config = try PostgreSQLDatabaseConfig(url: url) else {
+            throw Abort(.internalServerError, reason: "Could not create PostgreSQL config from DB_POSTGRESQL env var")
+        }
+        return config
+    }
 }
-databaseConfig = urlConfig
+```
+
+### MySQL
+
+The following config will locally connect to localhost, and on Vapor Cloud use `DB_MYSQL` variable.
+
+```swift
+services.register { c -> MySQLDatabaseConfig
+    switch c.environment {
+    case .development:
+        return .init(
+            hostname: "localhost",
+            port: 3306,
+            username: "vapor",
+            password: "vapor",
+            database: "database"
+        )
+    default:
+        guard let url = Environment.get("DB_MYSQL") else {
+            throw Abort(.internalServerError, reason: "No DB_MYSQL env var set")
+        }
+        guard let config = try MySQLDatabaseConfig(url: url) else {
+            throw Abort(.internalServerError, reason: "Could not create MySQL config from DB_MYSQL env var")
+        }
+        return config
+    }
+}
 ```
