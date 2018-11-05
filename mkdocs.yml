@@ -6,6 +6,7 @@ pages:
 - 'Quick Start': 'quick-start.md'
 - "What's New": 'whats-new.md'
 - 'Dashboard': 'dashboard/basics.md'
+- 'Roadmap': 'roadmap.md'
 - 'Docker':
     - 'Basics': 'docker/basics.md'
     - 'Templates': 'docker/templates.md'
