@@ -84,7 +84,7 @@ ssh git@git.code.vapor.cloud
 
 This will print output with your Vapor Cloud Email, and a list of applications you have access to.
 
-### Troubleshooting
+## Troubleshooting
 
 If you get the following message: 
 ```
