@@ -25,7 +25,7 @@ To get the content you can run the following command:
 cat ~/.ssh/id_rsa.pub
 ```
 
-Alternately you can get the content of the key directly on your clipboard:
+Alternately on macOS you can get the content of the key directly on your clipboard:
 
 ```bash
 pbcopy < ~/.ssh/id_rsa.pub
@@ -58,19 +58,7 @@ Hi jonas@vapor.codes, You've successfully authenticated to Vapor Cloud Git
 Connection to git.code.vapor.cloud closed.
 ```
 
-#### Troubleshooting
-If you get the following message: 
-```
-git@git.code.vapor.cloud: Permission denied (publickey).
-```
-
-It's maybe because you use a key that it not id_rsa. To fixing this problem add the following lines inside the ~/.ssh/config file (remember to replace YOUR_KEY with the name of the file that contains the private key):
-```
-Host git.code.vapor.cloud
-  HostName git.code.vapor.cloud
-  IdentityFile ~/.ssh/YOUR_KEY
-  IdentitiesOnly yes
-```
+For more info and troubleshooting, please see the [Git basics page](git/basics.md)
 
 ## Prepare your Project
 

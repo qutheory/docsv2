@@ -83,3 +83,18 @@ ssh git@git.code.vapor.cloud
 ```
 
 This will print output with your Vapor Cloud Email, and a list of applications you have access to.
+
+### Troubleshooting
+
+If you get the following message: 
+```
+git@git.code.vapor.cloud: Permission denied (publickey).
+```
+
+It's maybe because you use a key that it not id_rsa. To fixing this problem add the following lines inside the ~/.ssh/config file (remember to replace YOUR_KEY with the name of the file that contains the private key):
+```
+Host git.code.vapor.cloud
+  HostName git.code.vapor.cloud
+  IdentityFile ~/.ssh/YOUR_KEY
+  IdentitiesOnly yes
+```
