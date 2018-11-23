@@ -58,6 +58,20 @@ Hi jonas@vapor.codes, You've successfully authenticated to Vapor Cloud Git
 Connection to git.code.vapor.cloud closed.
 ```
 
+#### Troubleshooting
+If you get the following message: 
+```
+git@git.code.vapor.cloud: Permission denied (publickey).
+```
+
+It's maybe because you use a key that it not id_rsa. To fixing this problem add the following lines inside the ~/.ssh/config file (remember to replace YOUR_KEY with the name of the file that contains the private key):
+```
+Host git.code.vapor.cloud
+  HostName git.code.vapor.cloud
+  IdentityFile ~/.ssh/YOUR_KEY
+  IdentitiesOnly yes
+```
+
 ## Prepare your Project
 
 In order to run on Vapor Cloud, a project needs to define a `web.Dockerfile`. This is responsible for building the project and finally booting a server to handle HTTP requests on port 80.
