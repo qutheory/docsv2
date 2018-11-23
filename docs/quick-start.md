@@ -25,6 +25,12 @@ To get the content you can run the following command:
 cat ~/.ssh/id_rsa.pub
 ```
 
+Alternately you can get the content of the key directly on your clipboard:
+
+```bash
+pbcopy < ~/.ssh/id_rsa.pub
+```
+
 It's only one line. Copy the entire output.
 
 Next, in the dashboard, navigate to the Settings page using the main menu. Then, click the `+` button in the SSH keys section.
