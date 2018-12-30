@@ -40,6 +40,9 @@ docker run --rm -it -p 8080:80 my-app
 ```
 And test it by visiting `http://127.0.0.1:8080`.
 
+!!! note
+    If you use the default dockerfile provided in the Vapor templates, make sure to add `--build-arg env=docker` to your build command, and add any required environment checks using `Environment.custom(name: "docker")`
+
 ### Docker Compose
 
 You can also use Docker Compose to manage your local test images and containers by creating a `docker-compose.yml` in the root of your project.
