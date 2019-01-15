@@ -12,7 +12,7 @@ can be subject to change without prior notice.
 
 The Alpha of Vapor Cloud 2, will serve as an experimental of new features, as we close in on how the release will be. We plan on launching as many of the features needed, in an early stage. More advanced features will come during the Beta phase.
 
-## Beta (Q4 2018)
+## Beta
 
 During the Beta phase, most of the API and features will be locked, here we will also have full backups of all parts of the system, in case of emergency.
 During beta, we will also be enabling billing, however we will be temporary suspending some of the free limitations, in order to let people get going.
@@ -22,7 +22,7 @@ During beta, URL's will still have `.v2.` in the URL
 !!! warning
     During the beta, we will be testing our Disaster Recovery procedures, these will be notified on our StatusPage, and we will try selecting times with least disruption.
 
-## Production (Q1 2019)
+## Production
 
 When going into Production, we will do a full migration of ALL apps, users etc. From Cloud 1 to Cloud 2. A time for this will be announced on our StatusPage, and a time with least disruption will be selected for this.
 
