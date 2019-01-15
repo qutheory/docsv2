@@ -4,7 +4,7 @@ To do this, you need to upload a private git key as an environment variable, and
 
 1. First make a Base64 encoded string of your private key.
 
-```
+```bash
 cat /path/to/file | base64
 ```
 
@@ -12,7 +12,7 @@ Setup the value of this under the Environment variable key `SSH_PRIVATE_KEY` in 
 
 2. Add the following lines to your `web.Dockerfile`
 
-```
+```docker
 ARG ssh_prv_key=""
 
 # Authorize SSH Host
