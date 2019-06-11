@@ -18,7 +18,7 @@ ARG ssh_prv_key=""
 # Authorize SSH Host
 RUN mkdir -p /root/.ssh && \
     chmod 0700 /root/.ssh && \
-    ssh-keyscan github.com > /root/.ssh/known_hosts && \
+    ssh-keyscan github.com > /root/.ssh/known_hosts
 
 # Add the keys and set permissions
 
