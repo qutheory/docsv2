@@ -10,7 +10,9 @@ pages:
 - 'Docker':
     - 'Basics': 'docker/basics.md'
     - 'Templates': 'docker/templates.md'
-- 'Git': 'git/basics.md'
+- 'Git':
+    - 'Basics': 'git/basics.md'
+    - 'Private dependencies': 'git/private-dependencies.md'
 - 'Config Vars': 'config/basics.md'
 - 'Replica':
     - 'Replica': 'replica/replica.md'
