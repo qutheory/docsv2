@@ -21,6 +21,10 @@ pages:
 - 'Redis':
     - 'Redis': 'redis/redis.md'
     - 'Storage': 'redis/storage.md'
+- 'Shutdown':
+    - 'Shutdown': 'shutdown/index.md'
+    - 'Migrate to Heroku': 'shutdown/migrate-to-heroku.md'
+
 markdown_extensions:
     - admonition
     - codehilite:
